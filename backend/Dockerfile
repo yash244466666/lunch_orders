@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Copy .env file
-COPY .env ./
+# COPY .env ./
 
 # Expose port 3000 (Nest.js default)
 EXPOSE 3000
